@@ -81,6 +81,13 @@ a:hover {
   margin: 0 20px;
 }
 
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
